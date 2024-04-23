@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="19.010" timestamp="2024-04-23T09:35:44.614099" hostname="DESKTOP-P97K4TP"><testcase classname="test_HomePage.TestHomePage" name="test_formSubmission[get_data0]" time="7.197"><failure message="AssertionError: assert 'Success3213' in '×\nSuccess! The Form has been submitted successfully!.'&#10; +  where '×\nSuccess! The Form has been submitted successfully!.' = &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E7FDD5A90&gt;&gt;()&#10; +    where &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E7FDD5A90&gt;&gt; = &lt;pageObjects.HomePage.HomePage object at 0x0000028E7FDD5A90&gt;.result_msg">self = &lt;tests.test_HomePage.TestHomePage object at 0x0000028E01D79C10&gt;
+get_data = {'firstname': 'Rahul', 'gender': 'Male', 'lastname': 'Shetty'}
+
+    def test_formSubmission(self, get_data):
+        log = self.getLogger()
+        home_page = HomePage(self.driver)
+        log.info(f"firstname is {get_data["firstname"]}")
+        home_page.get_name().send_keys(get_data["firstname"])
+        log.info(f"lastname is {get_data["lastname"]}")
+        home_page.get_email().send_keys(get_data["lastname"])
+        home_page.get_password().send_keys(get_data["gender"])
+        home_page.get_checkbox().click()
+        home_page.pick_gender("Female")
+        self.select_option_by_text(home_page.get_gender(), "Male")
+        home_page.pick_employment_status("option2")
+        home_page.get_birthday().send_keys("01/01/1990")
+        home_page.get_submit_btn().click()
+        log.info(f"Message received: {home_page.result_msg()}")
+&gt;       assert ("Success3213" in home_page.result_msg())
+E       AssertionError: assert 'Success3213' in '×\nSuccess! The Form has been submitted successfully!.'
+E        +  where '×\nSuccess! The Form has been submitted successfully!.' = &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E7FDD5A90&gt;&gt;()
+E        +    where &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E7FDD5A90&gt;&gt; = &lt;pageObjects.HomePage.HomePage object at 0x0000028E7FDD5A90&gt;.result_msg
+
+test_HomePage.py:31: AssertionError</failure></testcase><testcase classname="test_HomePage.TestHomePage" name="test_formSubmission[get_data1]" time="0.805"><failure message="AssertionError: assert 'Success3213' in '×\nSuccess! The Form has been submitted successfully!.'&#10; +  where '×\nSuccess! The Form has been submitted successfully!.' = &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E01F93CE0&gt;&gt;()&#10; +    where &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E01F93CE0&gt;&gt; = &lt;pageObjects.HomePage.HomePage object at 0x0000028E01F93CE0&gt;.result_msg">self = &lt;tests.test_HomePage.TestHomePage object at 0x0000028E01D788C0&gt;
+get_data = {'firstname': 'Anishka', 'gender': 'Female', 'lastname': 'Shetty'}
+
+    def test_formSubmission(self, get_data):
+        log = self.getLogger()
+        home_page = HomePage(self.driver)
+        log.info(f"firstname is {get_data["firstname"]}")
+        home_page.get_name().send_keys(get_data["firstname"])
+        log.info(f"lastname is {get_data["lastname"]}")
+        home_page.get_email().send_keys(get_data["lastname"])
+        home_page.get_password().send_keys(get_data["gender"])
+        home_page.get_checkbox().click()
+        home_page.pick_gender("Female")
+        self.select_option_by_text(home_page.get_gender(), "Male")
+        home_page.pick_employment_status("option2")
+        home_page.get_birthday().send_keys("01/01/1990")
+        home_page.get_submit_btn().click()
+        log.info(f"Message received: {home_page.result_msg()}")
+&gt;       assert ("Success3213" in home_page.result_msg())
+E       AssertionError: assert 'Success3213' in '×\nSuccess! The Form has been submitted successfully!.'
+E        +  where '×\nSuccess! The Form has been submitted successfully!.' = &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E01F93CE0&gt;&gt;()
+E        +    where &lt;bound method HomePage.result_msg of &lt;pageObjects.HomePage.HomePage object at 0x0000028E01F93CE0&gt;&gt; = &lt;pageObjects.HomePage.HomePage object at 0x0000028E01F93CE0&gt;.result_msg
+
+test_HomePage.py:31: AssertionError</failure></testcase><testcase classname="test_e2e.TestOne" name="test_e2e" time="10.288" /></testsuite></testsuites>

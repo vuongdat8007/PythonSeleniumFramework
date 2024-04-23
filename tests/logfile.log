@@ -1,0 +1,96 @@
+2024-04-22 22:19:56,419 : INFO : test_formSubmission : firstname is Rahul
+2024-04-22 22:19:56,497 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:19:56,973 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:19:57,177 : INFO : test_formSubmission : firstname is Anishka
+2024-04-22 22:19:57,177 : INFO : test_formSubmission : firstname is Anishka
+2024-04-22 22:19:57,238 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:19:57,238 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:19:57,647 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:19:57,647 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:23:08,935 : INFO : test_e2e : Open shop page - getting all the card items
+2024-04-22 22:23:09,131 : INFO : test_e2e : pick product Blackberry to add to cart
+2024-04-22 22:23:14,582 : INFO : test_e2e : Text receive from web is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-04-22 22:23:31,459 : INFO : test_formSubmission : firstname is Rahul
+2024-04-22 22:23:31,530 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:23:31,987 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:23:32,169 : INFO : test_formSubmission : firstname is Anishka
+2024-04-22 22:23:32,169 : INFO : test_formSubmission : firstname is Anishka
+2024-04-22 22:23:32,226 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:23:32,226 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:23:32,623 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:23:32,623 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:31:36,869 : INFO : test_formSubmission : firstname is Rahul
+2024-04-22 22:31:36,942 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:31:37,401 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:31:37,589 : INFO : test_formSubmission : firstname is Anishka
+2024-04-22 22:31:37,589 : INFO : test_formSubmission : firstname is Anishka
+2024-04-22 22:31:37,647 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:31:37,647 : INFO : test_formSubmission : lastname is Shetty
+2024-04-22 22:31:38,040 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:31:38,040 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-22 22:32:03,711 : INFO : test_e2e : Open shop page - getting all the card items
+2024-04-22 22:32:03,864 : INFO : test_e2e : pick product Blackberry to add to cart
+2024-04-22 22:32:09,226 : INFO : test_e2e : Text receive from web is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-04-23 09:29:11,375 : INFO : test_formSubmission : firstname is Rahul
+2024-04-23 09:29:11,600 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:29:12,518 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:29:12,781 : INFO : test_formSubmission : firstname is Anishka
+2024-04-23 09:29:12,781 : INFO : test_formSubmission : firstname is Anishka
+2024-04-23 09:29:12,929 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:29:12,929 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:29:13,619 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:29:13,619 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:29:17,221 : INFO : test_e2e : Open shop page - getting all the card items
+2024-04-23 09:29:17,435 : INFO : test_e2e : pick product Blackberry to add to cart
+2024-04-23 09:29:23,176 : INFO : test_e2e : Text receive from web is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-04-23 09:31:57,783 : INFO : test_formSubmission : firstname is Rahul
+2024-04-23 09:31:57,939 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:31:58,829 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:31:59,063 : INFO : test_formSubmission : firstname is Anishka
+2024-04-23 09:31:59,063 : INFO : test_formSubmission : firstname is Anishka
+2024-04-23 09:31:59,170 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:31:59,170 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:31:59,844 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:31:59,844 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:32:03,679 : INFO : test_e2e : Open shop page - getting all the card items
+2024-04-23 09:32:03,944 : INFO : test_e2e : pick product Blackberry to add to cart
+2024-04-23 09:32:09,762 : INFO : test_e2e : Text receive from web is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-04-23 09:35:50,815 : INFO : test_formSubmission : firstname is Rahul
+2024-04-23 09:35:50,951 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:35:51,843 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:35:52,233 : INFO : test_formSubmission : firstname is Anishka
+2024-04-23 09:35:52,233 : INFO : test_formSubmission : firstname is Anishka
+2024-04-23 09:35:52,338 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:35:52,338 : INFO : test_formSubmission : lastname is Shetty
+2024-04-23 09:35:52,975 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:35:52,975 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
+2024-04-23 09:35:57,653 : INFO : test_e2e : Open shop page - getting all the card items
+2024-04-23 09:35:57,863 : INFO : test_e2e : pick product Blackberry to add to cart
+2024-04-23 09:36:03,544 : INFO : test_e2e : Text receive from web is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2024-04-23 13:34:07,555 : INFO : test_formSubmission : firstname is Gabriellia
+2024-04-23 13:34:07,713 : INFO : test_formSubmission : lastname is Jimes
+2024-04-23 13:34:08,662 : INFO : test_formSubmission : Message received: ×
+Success! The Form has been submitted successfully!.
